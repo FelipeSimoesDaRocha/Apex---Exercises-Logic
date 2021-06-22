@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n1 = parseFloat(window.prompt('Digite a primeira nota: '));
+        let n2 = parseFloat(window.prompt('Digite a segunda nota: '));
+        
+        let media = (n1 + n2) / 2;
+
+        if (n1 == 0 ||  n2 == 0 || n1 && n2 == 0) {
+            alert('Reprovado automaticamente')
+        } else {
+            if (media < 6){
+                alert('Reprovado por não atingir a média 6.')
+            } else{
+                alert(`Aprovado! Sua média foi ${media}`)
+            }
+        }
+    </script>
+</body>
+</html>

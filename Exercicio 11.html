@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!--11-Escrever um program que lê um valor i,inteiro e positivo e 3 valores a, b e c. Se o valor de i é par então calcular e imprimir na tela a média aritmética de a, b e c. 
+Caso contrário, se i>10 então calcular e imprimir na tela a média ponderada de a, b e c. Os pesos dos valores são respectivamente 2, 3 e 4. -->
+    
+    <script>
+        let i = parseInt(window.prompt("informe um numero"))
+        
+        a = 2
+        b = 3 
+        c = 4
+         
+    if (i % 2 == 0) {
+        let ww = ( a + b +c) / 3
+        document.write(ww) 
+            }else if(i >10 ){
+                let ww = (a * 2) + (b * 3) + (c * 4) / 3
+                document.write("a media" + ww)
+            }else{
+                document.write(`nao foi possivel`)
+            }
+    </script>
+</body>
+</html>
