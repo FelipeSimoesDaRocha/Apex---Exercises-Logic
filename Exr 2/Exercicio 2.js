@@ -8,25 +8,25 @@ let numberThree = parseInt(window.prompt("Digite o terceiro numero"));
 // encontar menor
  if (numberOne < numberTwo) {
     if (numberOne < numberThree)
-    console.log(" O menor é  o ", numberOne);  //  menor = numberOne;
+    console.log(" O menor é  o ", numberOne);  
 }
 else {
     if (numberTwo < numberThree){
-        console.log(" O menor é  o ", numberTwo);   // menor = numberTwo;
+        console.log(" O menor é  o ", numberTwo);   
      }else
-    console.log(" O menor é  o ", numberThree);   //menor = c
+    console.log(" O menor é  o ", numberThree);   
 }
 // encontrar o maior
 if (numberOne > numberTwo) {
     if (numberOne > numberThree)
-    console.log(" O maior é  o ", numberOne); // maior = numberOne;
+    console.log(" O maior é  o ", numberOne); 
     else
-    console.log(" O maior é  o ", numberOne); // maior = numberThree
+    console.log(" O maior é  o ", numberOne); 
 }
 else {
     if (numberTwo > numberThree)
-    console.log(" O maior é  o ", numberTwo);  //  maior = numberTwo;
+    console.log(" O maior é  o ", numberTwo);  
     else
-    console.log(" O maior é  o ", numberThree);  //   maior = numberThree
+    console.log(" O maior é  o ", numberThree);  
 }
  }
