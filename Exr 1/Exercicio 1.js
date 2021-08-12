@@ -1,8 +1,5 @@
 function diferenciar() {
   
-    var nome = prompt(`Qual o seu nome?`);
-  alert(`Bem-vindo ` + nome);
-
   let numberOne = parseInt(window.prompt("Digite um numero"));
   let numberTwo = parseInt(window.prompt("Digite outro numero"));
 
