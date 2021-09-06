@@ -2,12 +2,7 @@
 class bebida {
     fabricante:String;
     
-    
-    
-    
     }
-    
-    
     
     class cerveja extends bebida{
         modelo:String;

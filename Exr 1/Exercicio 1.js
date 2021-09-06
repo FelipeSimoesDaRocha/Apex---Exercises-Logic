@@ -1,5 +1,4 @@
 function diferenciar() {
-  
   let numberOne = parseInt(window.prompt("Digite um numero"));
   let numberTwo = parseInt(window.prompt("Digite outro numero"));
 
@@ -10,4 +9,4 @@ function diferenciar() {
   } else {
     document.write("os numeros são iguais");
   }
-}
+} 
