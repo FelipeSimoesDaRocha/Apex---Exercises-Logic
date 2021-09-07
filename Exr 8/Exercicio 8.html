@@ -11,8 +11,25 @@
 Deverá ser exibido na tela “Gastos dentro do orçamento” caso o valor gasto não
 ultrapasse o valor do salário e “Orçamento estourado” se o valor gasto
 ultrapassar o valor do salário. -->
-    <script>
-        
-    </script>
+   
+<h4>Faça um programa que peça dois números ao usuário e mostre qual o maior e qual o menor. </h4>
+velocidade do carro: <input type="number" name="txtvel" id="txtvel">
+<input type="button" value="Verificar" onclick="calcular()">
+<div id="res">
+
+</div>
+<script>
+    function calcular() {
+        var txtv = window.document.querySelector(`input#txtvel`);
+        var res = window.document.querySelector(`div#res`)
+        var vel = Number(txtv.value)
+        res.innerHTML = `<p> ...<strong>${vel} </strong> </p>`
+        if (vel > 60) {
+            res.innerHTML +=` kkk`
+        }
+        res.innerHTML += ` é maior que `
+    } 
+</script>
+
 </body>
 </html>
